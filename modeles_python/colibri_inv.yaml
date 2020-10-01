@@ -1,0 +1,1708 @@
+- name_mod: colibri
+- name_endo_list:
+  - compet
+  - d11_d5_cale
+  - d41_s14s3_cale
+  - d4z_s14s3_cale
+  - d5_s143_cale
+  - emps_d7_cale
+  - p3a_d5_cale
+  - p3g_d5_cale
+  - p3m_d1_cale
+  - p3m_d5_cale
+  - p51g_d5_cale
+  - p51m_d1_cale
+  - p51m_d5_cale
+  - p51t_d1_cale
+  - p51t_d5_cale
+  - p523_d1_cale
+  - p523_d3_cale
+  - p6_d1_cale
+  - p6_d5_cale
+  - p7_d1_cale
+  - p7_d5_cale
+  - pint_d5_cale
+  - tc_d11_d3
+  - tc_d11_s14r3
+  - tc_d1_d3
+  - tc_d61s_s14e3
+  - tc_d62_s14r3
+  - tc_d7_s14s3
+  - tc_emp_d1
+  - tc_uc_d5
+  - tc_ulc_d5
+  - tcho
+  - td_b2_s143
+  - td_b6_s143
+  - td_b6_s143a
+  - td_b6taxable_s14r3
+  - td_dint_d1
+  - td_dint_dhs1
+  - td_p3a_d1
+  - td_p3a_d3
+  - td_p3g_d3
+  - td_p3m_d3
+  - td_p51_d1
+  - td_p51_d3
+  - td_p51_d5
+  - td_p51g_d3
+  - td_p51m_d3
+  - td_p51t_d3
+  - td_p6_d3
+  - td_p7_d3
+  - td_pib1
+  - td_pib3
+  - td_pib5
+  - td_ratio_p7
+- name_exo_list:
+  - b2_part
+  - ct_d61ss14
+  - ct_tdp3ad3
+  - demmon
+  - dum_1982q1
+  - dum_1982q3
+  - dum_1983q1
+  - dum_1984q1
+  - dum_1990q1
+  - dum_1999q4
+  - inter
+  - pd7s14
+  - petfm
+  - petfx
+  - r10a
+  - r3m
+  - ratio_d11
+  - ratio_d29_39
+  - ratio_part
+  - ratio_soc
+  - tc_d11_d5
+  - tc_d41_s14s3
+  - tc_d4z_s14s3
+  - tc_d5_s14e3
+  - tc_d62_s14r1
+  - tc_empns_d1
+  - tc_emps_d7
+  - tc_ls_d1
+  - td_p3a_d5
+  - td_p3g_d1
+  - td_p3g_d5
+  - td_p3m_d1
+  - td_p3m_d5
+  - td_p51g_d1
+  - td_p51g_d5
+  - td_p51m_d1
+  - td_p51m_d5
+  - td_p51t_d1
+  - td_p51t_d5
+  - td_p523_d1
+  - td_p523_d3
+  - td_p6_d1
+  - td_p6_d5
+  - td_p7_d1
+  - td_p7_d5
+  - td_pint_d5
+  - time
+  - trim1
+  - trim2
+  - trim3
+  - trim4
+  - tuc
+- name_policy_list: []
+- name_coeff_list:
+  - ac1d4zs143
+  - ar1d11d5
+  - ar1d4zs143
+  - ar1empsd7
+  - ar1p3ad5
+  - ar1p3gd5
+  - ar1p3md5
+  - ar1p51gd5
+  - ar1p51md1
+  - ar1p51td5
+  - ar1p523d1
+  - ar1p7d5
+  - ar2p3ad5
+  - ar2p3gd5
+  - ar2p3md5
+  - ar2p51td1
+  - ar2p6d5
+  - ard41s14s3
+  - c0d11d5
+  - c0d14s14s3
+  - c0empsd7
+  - c0p3ad5
+  - c0p3gd5
+  - c0p3md1
+  - c0p3md5
+  - c0p51gd5
+  - c0p51md1
+  - c0p51md5
+  - c0p51td1
+  - c0p51td5
+  - c0p523d1
+  - c0p6d5
+  - c0p7d5
+  - c1empsd7
+  - c1p3md1
+  - c1p51md1
+  - c1p523d1
+  - c1p6d1
+  - c1p7d1
+  - c2p3md1
+  - c2p523d1
+  - c3d11dim5
+  - c3p3md1
+  - c3p523d1
+  - c3p6d1
+  - c4p3md1
+  - c5p3md1
+  - c6p3md1
+  - clt0p6d1
+  - clt0p7d1
+  - clt1p6d5
+  - clt1p7d5
+  - clt2p6d1
+  - clt2p7d1
+  - cltp3ad5
+  - cltp3gd5
+  - cltp3md5
+  - cltp51gd5
+  - cltp51md5
+  - cltp51td5
+  - ctlp51md1
+  - dum1d11d5
+  - dum1p3dmd5
+  - dum1p3gd5
+  - dum1p51gd5
+  - dum1p51md5
+  - dum1p6d5gd5
+  - mu0p51td1
+  - mu1p51td1
+  - mup3md1
+  - mup51md1
+  - mup6d1
+  - mup7d1
+  - p1d5s14
+  - p70p3ad5
+  - p70p3md5
+  - p70p51gd5
+  - p70p51td5
+  - p71p3ad5
+  - p7d50p7d1
+  - pc0d11d5
+  - petfm0p7d5
+  - petfx0p6d5
+  - petfx1p6d5
+  - pib0p51td1
+  - r3md41s14s3
+  - rl0d41s14s3
+  - ulc0p3g5
+  - ulc0p3m5
+  - ulc0p51gg5
+  - ulc0p51m5
+  - ulc0p51td5
+  - ulc0p6d5
+  - ulc0p7d1
+  - ulc1p3a5
+  - ulc1p3g5
+  - ulc1p3m5
+  - ulc1p51m5
+  - ulc1p51td5
+  - ulc1p7d1
+- equations:
+    compet:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        compet: 0
+        td_p6_d5: 96
+      endo_name_list:
+      - compet
+      - td_p6_d5
+      exo_eq_dict:
+        petfx: 67
+        td_p6_d5: 96
+      exo_name_list:
+      - petfx
+      - td_p6_d5
+      name_eq: compet
+      num_eq: 26
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: compet = petfx/td_p6_d5
+    tc_d11_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d11_d3: 22
+        tc_d11_d5: 74
+        tc_emps_d7: 80
+      endo_name_list:
+      - tc_d11_d3
+      - tc_d11_d5
+      - tc_emps_d7
+      exo_eq_dict:
+        tc_d11_d5: 74
+        tc_emps_d7: 80
+      exo_name_list:
+      - tc_d11_d5
+      - tc_emps_d7
+      name_eq: tc_d11_d3
+      num_eq: 0
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_d11_d3=tc_d11_d5*tc_emps_d7
+    tc_d11_d5:
+      coeff_eq_dict:
+        ar1d11d5: 1
+        c0d11d5: 18
+        c3d11dim5: 41
+        dum1d11d5: 61
+        pc0d11d5: 80
+      coeff_name_list:
+      - ar1d11d5
+      - c0d11d5
+      - c3d11dim5
+      - dum1d11d5
+      - pc0d11d5
+      endo_eq_dict:
+        d11_d5_cale: 1
+        tc_d11_d5: 74
+        tcho: 31
+        td_p3m_d5: 86
+      endo_name_list:
+      - d11_d5_cale
+      - tc_d11_d5
+      - tcho
+      - td_p3m_d5
+      exo_eq_dict:
+        dum_1982q3: 59
+        dum_1983q1: 60
+        tc_d11_d5: 74
+        td_p3m_d5: 86
+      exo_name_list:
+      - dum_1982q3
+      - dum_1983q1
+      - tc_d11_d5
+      - td_p3m_d5
+      name_eq: tc_d11_d5
+      num_eq: 40
+      policy_eq_dict:
+        td_p3m_d5: 1
+      policy_name_list:
+      - d11_d5_cale
+      text_eq: del(log(tc_d11_d5)) = c0d11d5'c +ar1d11d5'c*del(log(tc_d11_d5(-1)))
+        +pc0d11d5'c*del(log(td_p3m_d5)) +dum1d11d5'c*(dum_1982q3-dum_1983q1) +c3d11dim5'c*log(tcho)
+        +d11_d5_cale
+    tc_d11_s14r3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d11_d3: 22
+        tc_d11_s14r3: 23
+      endo_name_list:
+      - tc_d11_d3
+      - tc_d11_s14r3
+      exo_eq_dict:
+        ratio_d11: 70
+      exo_name_list:
+      - ratio_d11
+      name_eq: tc_d11_s14r3
+      num_eq: 41
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_d11_s14r3=tc_d11_d3*ratio_d11
+    tc_d1_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d11_d3: 22
+        tc_d1_d3: 24
+      endo_name_list:
+      - tc_d11_d3
+      - tc_d1_d3
+      exo_eq_dict:
+        ratio_soc: 73
+      exo_name_list:
+      - ratio_soc
+      name_eq: tc_d1_d3
+      num_eq: 1
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_d1_d3=tc_d11_d3*(1+ratio_soc)
+    tc_d41_s14s3:
+      coeff_eq_dict:
+        ard41s14s3: 17
+        c0d14s14s3: 19
+        r3md41s14s3: 85
+        rl0d41s14s3: 86
+      coeff_name_list:
+      - ard41s14s3
+      - c0d14s14s3
+      - r3md41s14s3
+      - rl0d41s14s3
+      endo_eq_dict:
+        d41_s14s3_cale: 2
+        tc_d41_s14s3: 75
+      endo_name_list:
+      - d41_s14s3_cale
+      - tc_d41_s14s3
+      exo_eq_dict:
+        r10a: 68
+        r3m: 69
+        tc_d41_s14s3: 75
+      exo_name_list:
+      - r10a
+      - r3m
+      - tc_d41_s14s3
+      name_eq: tc_d41_s14s3
+      num_eq: 45
+      policy_eq_dict:
+        tc_d41_s14s3: 2
+      policy_name_list:
+      - d41_s14s3_cale
+      text_eq: tc_d41_s14s3/td_b6_s143(-1)=c0d14s14s3'c+ard41s14s3'c*tc_d41_s14s3(-1)/td_b6_s143(-2)+rl0d41s14s3'c*r10a+r3md41s14s3'c*(r3m-ard41s14s3'c*r3m(-1))
+        +d41_s14s3_cale
+    tc_d4z_s14s3:
+      coeff_eq_dict:
+        ac1d4zs143: 0
+        ar1d4zs143: 2
+      coeff_name_list:
+      - ac1d4zs143
+      - ar1d4zs143
+      endo_eq_dict:
+        d4z_s14s3_cale: 3
+        tc_d4z_s14s3: 76
+      endo_name_list:
+      - d4z_s14s3_cale
+      - tc_d4z_s14s3
+      exo_eq_dict:
+        tc_d4z_s14s3: 76
+      exo_name_list:
+      - tc_d4z_s14s3
+      name_eq: tc_d4z_s14s3
+      num_eq: 46
+      policy_eq_dict:
+        tc_d4z_s14s3: 3
+      policy_name_list:
+      - d4z_s14s3_cale
+      text_eq: del(tc_d4z_s14s3)=ar1d4zs143'c*del(tc_d4z_s14s3(-1))+ac1d4zs143'c*del(td_pib3)(-1)
+        +d4z_s14s3_cale
+    tc_d5_s14e3:
+      coeff_eq_dict:
+        p1d5s14: 73
+      coeff_name_list:
+      - p1d5s14
+      endo_eq_dict:
+        d5_s143_cale: 4
+        tc_d5_s14e3: 77
+        td_b6_s143a: 34
+        td_b6taxable_s14r3: 35
+      endo_name_list:
+      - d5_s143_cale
+      - tc_d5_s14e3
+      - td_b6_s143a
+      - td_b6taxable_s14r3
+      exo_eq_dict:
+        tc_d5_s14e3: 77
+      exo_name_list:
+      - tc_d5_s14e3
+      name_eq: tc_d5_s14e3
+      num_eq: 49
+      policy_eq_dict:
+        td_b6taxable_s14r3: 4
+      policy_name_list:
+      - d5_s143_cale
+      text_eq: del(log(tc_d5_s14e3))=p1d5s14'c*1.9*del(log(td_b6_s143a))+(1-p1d5s14'c)*del(log(td_b6taxable_s14r3))+d5_s143_cale
+    tc_d61s_s14e3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d11_s14r3: 23
+        tc_d61s_s14e3: 25
+      endo_name_list:
+      - tc_d11_s14r3
+      - tc_d61s_s14e3
+      exo_eq_dict:
+        ct_d61ss14: 55
+      exo_name_list:
+      - ct_d61ss14
+      name_eq: tc_d61s_s14e3
+      num_eq: 50
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_d61s_s14e3=ct_d61ss14*tc_d11_s14r3
+    tc_d62_s14r3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d62_s14r3: 26
+      endo_name_list:
+      - tc_d62_s14r3
+      exo_eq_dict:
+        tc_d62_s14r1: 78
+        td_p3m_d5: 86
+      exo_name_list:
+      - tc_d62_s14r1
+      - td_p3m_d5
+      name_eq: tc_d62_s14r3
+      num_eq: 51
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_d62_s14r3 = 0.25*(td_p3m_d5(-1)+td_p3m_d5(-2)+td_p3m_d5(-3)+td_p3m_d5(-4))*tc_d62_s14r1
+    tc_d7_s14s3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d7_s14s3: 27
+        td_pib3: 51
+      endo_name_list:
+      - tc_d7_s14s3
+      - td_pib3
+      exo_eq_dict:
+        pd7s14: 65
+      exo_name_list:
+      - pd7s14
+      name_eq: tc_d7_s14s3
+      num_eq: 52
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_d7_s14s3 = pd7s14*td_pib3
+    tc_emp_d1:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_emp_d1: 28
+        tc_emps_d7: 80
+      endo_name_list:
+      - tc_emp_d1
+      - tc_emps_d7
+      exo_eq_dict:
+        ratio_part: 72
+        tc_empns_d1: 79
+        tc_emps_d7: 80
+      exo_name_list:
+      - ratio_part
+      - tc_empns_d1
+      - tc_emps_d7
+      name_eq: tc_emp_d1
+      num_eq: 42
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_emp_d1 = tc_emps_d7/(1-ratio_part)+tc_empns_d1
+    tc_emps_d7:
+      coeff_eq_dict:
+        ar1empsd7: 3
+        c0empsd7: 20
+        c1empsd7: 33
+      coeff_name_list:
+      - ar1empsd7
+      - c0empsd7
+      - c1empsd7
+      endo_eq_dict:
+        emps_d7_cale: 5
+        tc_d11_d5: 74
+        tc_emps_d7: 80
+        td_pib1: 50
+        td_pib5: 52
+      endo_name_list:
+      - emps_d7_cale
+      - tc_d11_d5
+      - tc_emps_d7
+      - td_pib1
+      - td_pib5
+      exo_eq_dict:
+        tc_d11_d5: 74
+        tc_emps_d7: 80
+      exo_name_list:
+      - tc_d11_d5
+      - tc_emps_d7
+      name_eq: tc_emps_d7
+      num_eq: 39
+      policy_eq_dict:
+        td_pib5: 5
+      policy_name_list:
+      - emps_d7_cale
+      text_eq: del(log(tc_emps_d7)) = c0empsd7'c+ar1empsd7'c*del(log(tc_emps_d7(-1)))+(1-ar1empsd7'c)*del(log(td_pib1))
+        +c1empsd7'c*(del(log(tc_d11_d5/td_pib5*100))+del(log(tc_d11_d5/td_pib5*100))(-1))
+        +emps_d7_cale
+    tc_uc_d5:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_uc_d5: 29
+        tc_ulc_d5: 30
+        td_p7_d5: 98
+        td_ratio_p7: 53
+      endo_name_list:
+      - tc_uc_d5
+      - tc_ulc_d5
+      - td_p7_d5
+      - td_ratio_p7
+      exo_eq_dict:
+        td_p7_d5: 98
+      exo_name_list:
+      - td_p7_d5
+      name_eq: tc_uc_d5
+      num_eq: 4
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_uc_d5=td_ratio_p7*td_p7_d5+(1-td_ratio_p7)*tc_ulc_d5/0.47
+    tc_ulc_d5:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d1_d3: 24
+        tc_ulc_d5: 30
+        td_pib1: 50
+      endo_name_list:
+      - tc_d1_d3
+      - tc_ulc_d5
+      - td_pib1
+      exo_eq_dict:
+        ratio_d29_39: 71
+      exo_name_list:
+      - ratio_d29_39
+      name_eq: tc_ulc_d5
+      num_eq: 2
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tc_ulc_d5=tc_d1_d3*(1-ratio_d29_39)/td_pib1
+    tcho:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_emp_d1: 28
+        tcho: 31
+      endo_name_list:
+      - tc_emp_d1
+      - tcho
+      exo_eq_dict:
+        tc_ls_d1: 81
+      exo_name_list:
+      - tc_ls_d1
+      name_eq: tcho
+      num_eq: 43
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: tcho = (tc_ls_d1-tc_emp_d1)/tc_ls_d1*100
+    td_b2_s143:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_b2_s143: 32
+        td_pib3: 51
+      endo_name_list:
+      - td_b2_s143
+      - td_pib3
+      exo_eq_dict:
+        b2_part: 54
+      exo_name_list:
+      - b2_part
+      name_eq: td_b2_s143
+      num_eq: 44
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_b2_s143=b2_part*td_pib3
+    td_b6_s143:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d5_s14e3: 77
+        td_b6_s143: 33
+        td_b6taxable_s14r3: 35
+      endo_name_list:
+      - tc_d5_s14e3
+      - td_b6_s143
+      - td_b6taxable_s14r3
+      exo_eq_dict:
+        tc_d5_s14e3: 77
+      exo_name_list:
+      - tc_d5_s14e3
+      name_eq: td_b6_s143
+      num_eq: 53
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_b6_s143 = td_b6taxable_s14r3-tc_d5_s14e3
+    td_b6_s143a:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_b6_s143a: 34
+      endo_name_list:
+      - td_b6_s143a
+      exo_eq_dict:
+        trim1: 101
+        trim2: 102
+        trim3: 103
+        trim4: 104
+      exo_name_list:
+      - trim1
+      - trim2
+      - trim3
+      - trim4
+      name_eq: td_b6_s143a
+      num_eq: 47
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_b6_s143a=trim1*(td_b6_s143(-1)+td_b6_s143(-2)+td_b6_s143(-3)+td_b6_s143(-4))
+        +trim2*(td_b6_s143(-2)+td_b6_s143(-3)+td_b6_s143(-4)+td_b6_s143(-4)) +trim3*(td_b6_s143(-3)+td_b6_s143(-4)+td_b6_s143(-4)+td_b6_s143(-5))
+        +trim4*(td_b6_s143(-4)+td_b6_s143(-4)+td_b6_s143(-5)+td_b6_s143(-6))
+    td_b6taxable_s14r3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        tc_d11_s14r3: 23
+        tc_d41_s14s3: 75
+        tc_d4z_s14s3: 76
+        tc_d61s_s14e3: 25
+        tc_d62_s14r3: 26
+        tc_d7_s14s3: 27
+        td_b2_s143: 32
+        td_b6taxable_s14r3: 35
+      endo_name_list:
+      - tc_d11_s14r3
+      - tc_d41_s14s3
+      - tc_d4z_s14s3
+      - tc_d61s_s14e3
+      - tc_d62_s14r3
+      - tc_d7_s14s3
+      - td_b2_s143
+      - td_b6taxable_s14r3
+      exo_eq_dict:
+        tc_d41_s14s3: 75
+        tc_d4z_s14s3: 76
+      exo_name_list:
+      - tc_d41_s14s3
+      - tc_d4z_s14s3
+      name_eq: td_b6taxable_s14r3
+      num_eq: 48
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_b6taxable_s14r3=td_b2_s143+tc_d11_s14r3+tc_d41_s14s3+tc_d4z_s14s3-tc_d61s_s14e3+tc_d62_s14r3+tc_d7_s14s3
+    td_dint_d1:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_dint_d1: 36
+        td_dint_dhs1: 37
+        td_p523_d1: 93
+      endo_name_list:
+      - td_dint_d1
+      - td_dint_dhs1
+      - td_p523_d1
+      exo_eq_dict:
+        td_p523_d1: 93
+      exo_name_list:
+      - td_p523_d1
+      name_eq: td_dint_d1
+      num_eq: 32
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_dint_d1=td_dint_dhs1+td_p523_d1
+    td_dint_dhs1:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_dint_dhs1: 37
+        td_p3a_d1: 38
+        td_p3m_d1: 85
+        td_p51_d1: 42
+        td_p6_d1: 95
+      endo_name_list:
+      - td_dint_dhs1
+      - td_p3a_d1
+      - td_p3m_d1
+      - td_p51_d1
+      - td_p6_d1
+      exo_eq_dict:
+        td_p3g_d1: 83
+        td_p3m_d1: 85
+        td_p6_d1: 95
+      exo_name_list:
+      - td_p3g_d1
+      - td_p3m_d1
+      - td_p6_d1
+      name_eq: td_dint_dhs1
+      num_eq: 31
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_dint_dhs1=td_p3m_d1+td_p51_d1+td_p3g_d1+td_p3a_d1+td_p6_d1
+    td_p3a_d1:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p3a_d1: 38
+        td_p3a_d3: 39
+        td_p3a_d5: 82
+      endo_name_list:
+      - td_p3a_d1
+      - td_p3a_d3
+      - td_p3a_d5
+      exo_eq_dict:
+        td_p3a_d5: 82
+      exo_name_list:
+      - td_p3a_d5
+      name_eq: td_p3a_d1
+      num_eq: 12
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p3a_d1=td_p3a_d3/td_p3a_d5
+    td_p3a_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_b6_s143: 33
+        td_p3a_d3: 39
+      endo_name_list:
+      - td_b6_s143
+      - td_p3a_d3
+      exo_eq_dict:
+        ct_tdp3ad3: 56
+      exo_name_list:
+      - ct_tdp3ad3
+      name_eq: td_p3a_d3
+      num_eq: 11
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p3a_d3=ct_tdp3ad3*td_b6_s143
+    td_p3a_d5:
+      coeff_eq_dict:
+        ar1p3ad5: 4
+        ar2p3ad5: 12
+        c0p3ad5: 21
+        cltp3ad5: 54
+        p70p3ad5: 74
+        p71p3ad5: 78
+        ulc1p3a5: 94
+      coeff_name_list:
+      - ar1p3ad5
+      - ar2p3ad5
+      - c0p3ad5
+      - cltp3ad5
+      - p70p3ad5
+      - p71p3ad5
+      - ulc1p3a5
+      endo_eq_dict:
+        p3a_d5_cale: 6
+        td_p3a_d5: 82
+        td_p7_d5: 98
+      endo_name_list:
+      - p3a_d5_cale
+      - td_p3a_d5
+      - td_p7_d5
+      exo_eq_dict:
+        td_p3a_d5: 82
+        td_p7_d5: 98
+      exo_name_list:
+      - td_p3a_d5
+      - td_p7_d5
+      name_eq: td_p3a_d5
+      num_eq: 10
+      policy_eq_dict:
+        td_p7_d5: 6
+      policy_name_list:
+      - p3a_d5_cale
+      text_eq: del(log(td_p3a_d5))=ar1p3ad5'c*del(log(td_p3a_d5))(-1)+ar2p3ad5'c*del(log(td_p3a_d5))(-2)
+        +p70p3ad5'c*del(log(td_p7_d5))+p71p3ad5'c*del(log(td_p7_d5))(-1) +ulc1p3a5'c*del(log(tc_ulc_d5))(-1)
+        +cltp3ad5'c*log(td_p3a_d5/tc_uc_d5)(-2)+c0p3ad5'c +p3a_d5_cale
+    td_p3g_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p3g_d3: 40
+        td_p3g_d5: 84
+      endo_name_list:
+      - td_p3g_d3
+      - td_p3g_d5
+      exo_eq_dict:
+        td_p3g_d1: 83
+        td_p3g_d5: 84
+      exo_name_list:
+      - td_p3g_d1
+      - td_p3g_d5
+      name_eq: td_p3g_d3
+      num_eq: 9
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p3g_d3=td_p3g_d1*td_p3g_d5
+    td_p3g_d5:
+      coeff_eq_dict:
+        ar1p3gd5: 5
+        ar2p3gd5: 13
+        c0p3gd5: 22
+        cltp3gd5: 55
+        dum1p3gd5: 63
+        ulc0p3g5: 87
+        ulc1p3g5: 95
+      coeff_name_list:
+      - ar1p3gd5
+      - ar2p3gd5
+      - c0p3gd5
+      - cltp3gd5
+      - dum1p3gd5
+      - ulc0p3g5
+      - ulc1p3g5
+      endo_eq_dict:
+        p3g_d5_cale: 7
+        tc_ulc_d5: 30
+        td_p3g_d5: 84
+      endo_name_list:
+      - p3g_d5_cale
+      - tc_ulc_d5
+      - td_p3g_d5
+      exo_eq_dict:
+        dum_1990q1: 62
+        td_p3g_d5: 84
+      exo_name_list:
+      - dum_1990q1
+      - td_p3g_d5
+      name_eq: td_p3g_d5
+      num_eq: 8
+      policy_eq_dict:
+        td_p3g_d5: 7
+      policy_name_list:
+      - p3g_d5_cale
+      text_eq: del(log(td_p3g_d5))=ar1p3gd5'c*del(log(td_p3g_d5))(-1)+ar2p3gd5'c*del(log(td_p3g_d5))(-2)
+        +ulc0p3g5'c*del(log(tc_ulc_d5))+ulc1p3g5'c*del(log(tc_ulc_d5))(-1) +cltp3gd5'c*log(td_p3g_d5/tc_ulc_d5)(-2)+c0p3gd5'c+dum1p3gd5'c*dum_1990q1
+        +p3g_d5_cale
+    td_p3m_d1:
+      coeff_eq_dict:
+        c0p3md1: 23
+        c1p3md1: 34
+        c2p3md1: 39
+        c3p3md1: 42
+        c4p3md1: 45
+        c5p3md1: 46
+        c6p3md1: 47
+        mup3md1: 69
+      coeff_name_list:
+      - c0p3md1
+      - c1p3md1
+      - c2p3md1
+      - c3p3md1
+      - c4p3md1
+      - c5p3md1
+      - c6p3md1
+      - mup3md1
+      endo_eq_dict:
+        p3m_d1_cale: 8
+        tcho: 31
+        td_b6_s143: 33
+        td_p3m_d1: 85
+        td_p3m_d5: 86
+      endo_name_list:
+      - p3m_d1_cale
+      - tcho
+      - td_b6_s143
+      - td_p3m_d1
+      - td_p3m_d5
+      exo_eq_dict:
+        r3m: 69
+        td_p3m_d1: 85
+        td_p3m_d5: 86
+      exo_name_list:
+      - r3m
+      - td_p3m_d1
+      - td_p3m_d5
+      name_eq: td_p3m_d1
+      num_eq: 5
+      policy_eq_dict:
+        td_p3m_d5: 8
+      policy_name_list:
+      - p3m_d1_cale
+      text_eq: del(log(td_p3m_d1)) = c1p3md1'c*del(log(td_b6_s143/td_p3m_d5))+c2p3md1'c*del(log(td_b6_s143(-1)/td_p3m_d5(-1)))
+        +c3p3md1'c*del(log(td_b6_s143(-2)/td_p3m_d5(-2))) +c4p3md1'c*del(log(td_b6_s143(-3)/td_p3m_d5(-3)))
+        +c5p3md1'c*del(r3m(-2)-(td_p3m_d5(-2)/td_p3m_d5(-6)-1)*100) +c6p3md1'c*del(tcho)
+        +mup3md1'c*log(td_p3m_d1(-1)/td_b6_s143*td_p3m_d5(-1)) +c0p3md1'c +p3m_d1_cale
+    td_p3m_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p3m_d1: 85
+        td_p3m_d3: 41
+        td_p3m_d5: 86
+      endo_name_list:
+      - td_p3m_d1
+      - td_p3m_d3
+      - td_p3m_d5
+      exo_eq_dict:
+        td_p3m_d1: 85
+        td_p3m_d5: 86
+      exo_name_list:
+      - td_p3m_d1
+      - td_p3m_d5
+      name_eq: td_p3m_d3
+      num_eq: 7
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p3m_d3=td_p3m_d1*td_p3m_d5
+    td_p3m_d5:
+      coeff_eq_dict:
+        ar1p3md5: 6
+        ar2p3md5: 14
+        c0p3md5: 24
+        cltp3md5: 56
+        dum1p3dmd5: 62
+        p70p3md5: 75
+        ulc0p3m5: 88
+        ulc1p3m5: 96
+      coeff_name_list:
+      - ar1p3md5
+      - ar2p3md5
+      - c0p3md5
+      - cltp3md5
+      - dum1p3dmd5
+      - p70p3md5
+      - ulc0p3m5
+      - ulc1p3m5
+      endo_eq_dict:
+        p3m_d5_cale: 9
+        tc_ulc_d5: 30
+        td_p3m_d5: 86
+        td_p7_d5: 98
+      endo_name_list:
+      - p3m_d5_cale
+      - tc_ulc_d5
+      - td_p3m_d5
+      - td_p7_d5
+      exo_eq_dict:
+        dum_1982q3: 59
+        td_p3m_d5: 86
+        td_p7_d5: 98
+      exo_name_list:
+      - dum_1982q3
+      - td_p3m_d5
+      - td_p7_d5
+      name_eq: td_p3m_d5
+      num_eq: 6
+      policy_eq_dict:
+        td_p7_d5: 9
+      policy_name_list:
+      - p3m_d5_cale
+      text_eq: del(log(td_p3m_d5))=ar1p3md5'c*del(log(td_p3m_d5))(-1)+ar2p3md5'c*del(log(td_p3m_d5))(-2)
+        +p70p3md5'c*del(log(td_p7_d5)) +ulc0p3m5'c*del(log(tc_ulc_d5))+ulc1p3m5'c*del(log(tc_ulc_d5))(-1)
+        +cltp3md5'c*log(td_p3m_d5/tc_uc_d5)(-2)+c0p3md5'c+dum1p3dmd5'c*dum_1982q3
+        +p3m_d5_cale
+    td_p51_d1:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p51_d1: 42
+        td_p51m_d1: 89
+        td_p51t_d1: 91
+      endo_name_list:
+      - td_p51_d1
+      - td_p51m_d1
+      - td_p51t_d1
+      exo_eq_dict:
+        td_p51g_d1: 87
+        td_p51m_d1: 89
+        td_p51t_d1: 91
+      exo_name_list:
+      - td_p51g_d1
+      - td_p51m_d1
+      - td_p51t_d1
+      name_eq: td_p51_d1
+      num_eq: 21
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p51_d1=td_p51m_d1+td_p51t_d1+td_p51g_d1
+    td_p51_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p51_d3: 43
+        td_p51g_d3: 45
+        td_p51m_d3: 46
+        td_p51t_d3: 47
+      endo_name_list:
+      - td_p51_d3
+      - td_p51g_d3
+      - td_p51m_d3
+      - td_p51t_d3
+      exo_eq_dict: {}
+      exo_name_list: []
+      name_eq: td_p51_d3
+      num_eq: 22
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p51_d3=td_p51m_d3+td_p51t_d3+td_p51g_d3
+    td_p51_d5:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p51_d1: 42
+        td_p51_d3: 43
+        td_p51_d5: 44
+      endo_name_list:
+      - td_p51_d1
+      - td_p51_d3
+      - td_p51_d5
+      exo_eq_dict: {}
+      exo_name_list: []
+      name_eq: td_p51_d5
+      num_eq: 23
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p51_d5=td_p51_d3/td_p51_d1
+    td_p51g_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p51g_d3: 45
+        td_p51g_d5: 88
+      endo_name_list:
+      - td_p51g_d3
+      - td_p51g_d5
+      exo_eq_dict:
+        td_p51g_d1: 87
+        td_p51g_d5: 88
+      exo_name_list:
+      - td_p51g_d1
+      - td_p51g_d5
+      name_eq: td_p51g_d3
+      num_eq: 20
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p51g_d3=td_p51g_d1*td_p51g_d5
+    td_p51g_d5:
+      coeff_eq_dict:
+        ar1p51gd5: 7
+        c0p51gd5: 25
+        cltp51gd5: 57
+        dum1p51gd5: 64
+        p70p51gd5: 76
+        ulc0p51gg5: 89
+      coeff_name_list:
+      - ar1p51gd5
+      - c0p51gd5
+      - cltp51gd5
+      - dum1p51gd5
+      - p70p51gd5
+      - ulc0p51gg5
+      endo_eq_dict:
+        p51g_d5_cale: 10
+        tc_ulc_d5: 30
+        td_p51g_d5: 88
+        td_p7_d5: 98
+      endo_name_list:
+      - p51g_d5_cale
+      - tc_ulc_d5
+      - td_p51g_d5
+      - td_p7_d5
+      exo_eq_dict:
+        dum_1982q1: 58
+        td_p51g_d5: 88
+        td_p7_d5: 98
+      exo_name_list:
+      - dum_1982q1
+      - td_p51g_d5
+      - td_p7_d5
+      name_eq: td_p51g_d5
+      num_eq: 19
+      policy_eq_dict:
+        td_p7_d5: 10
+      policy_name_list:
+      - p51g_d5_cale
+      text_eq: del(log(td_p51g_d5))=ar1p51gd5'c*del(log(td_p51g_d5))(-1) +p70p51gd5'c*del(log(td_p7_d5))
+        +ulc0p51gg5'c*del(log(tc_ulc_d5)) +cltp51gd5'c*log(td_p51g_d5/tc_uc_d5)(-1)+c0p51gd5'c+dum1p51gd5'c*dum_1982q1
+        +p51g_d5_cale
+    td_p51m_d1:
+      coeff_eq_dict:
+        ar1p51md1: 8
+        c0p51md1: 26
+        c1p51md1: 35
+        ctlp51md1: 60
+        mup51md1: 70
+      coeff_name_list:
+      - ar1p51md1
+      - c0p51md1
+      - c1p51md1
+      - ctlp51md1
+      - mup51md1
+      endo_eq_dict:
+        p51m_d1_cale: 11
+        td_p51m_d1: 89
+      endo_name_list:
+      - p51m_d1_cale
+      - td_p51m_d1
+      exo_eq_dict:
+        r10a: 68
+        td_p51m_d1: 89
+        td_p51m_d5: 90
+      exo_name_list:
+      - r10a
+      - td_p51m_d1
+      - td_p51m_d5
+      name_eq: td_p51m_d1
+      num_eq: 13
+      policy_eq_dict:
+        td_p51m_d1: 11
+      policy_name_list:
+      - p51m_d1_cale
+      text_eq: del(log(td_p51m_d1)) = c0p51md1'c+ar1p51md1'c*del(log(td_p51m_d1(-1)))+c1p51md1'c*del(log(td_p51m_d5)(-1))
+        +mup51md1'c*(log(td_p51m_d1(-1))-log(td_b6_s143(-1)/td_p51m_d5(-1)*100)) +ctlp51md1'c*(r10a(-1)-(td_p51m_d5(-1)/td_p51m_d5(-5)-1)*100)
+        +p51m_d1_cale
+    td_p51m_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p51m_d1: 89
+        td_p51m_d3: 46
+        td_p51m_d5: 90
+      endo_name_list:
+      - td_p51m_d1
+      - td_p51m_d3
+      - td_p51m_d5
+      exo_eq_dict:
+        td_p51m_d1: 89
+        td_p51m_d5: 90
+      exo_name_list:
+      - td_p51m_d1
+      - td_p51m_d5
+      name_eq: td_p51m_d3
+      num_eq: 15
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p51m_d3=td_p51m_d1*td_p51m_d5
+    td_p51m_d5:
+      coeff_eq_dict:
+        c0p51md5: 27
+        cltp51md5: 58
+        dum1p51md5: 65
+        ulc0p51m5: 90
+        ulc1p51m5: 97
+      coeff_name_list:
+      - c0p51md5
+      - cltp51md5
+      - dum1p51md5
+      - ulc0p51m5
+      - ulc1p51m5
+      endo_eq_dict:
+        p51m_d5_cale: 12
+        tc_ulc_d5: 30
+        td_p51m_d5: 90
+      endo_name_list:
+      - p51m_d5_cale
+      - tc_ulc_d5
+      - td_p51m_d5
+      exo_eq_dict:
+        dum_1999q4: 63
+        td_p51m_d5: 90
+      exo_name_list:
+      - dum_1999q4
+      - td_p51m_d5
+      name_eq: td_p51m_d5
+      num_eq: 14
+      policy_eq_dict:
+        td_p51m_d5: 12
+      policy_name_list:
+      - p51m_d5_cale
+      text_eq: del(log(td_p51m_d5))= +ulc0p51m5'c*del(log(tc_ulc_d5))+ulc1p51m5'c*del(log(tc_ulc_d5))(-1)
+        +cltp51md5'c*log(td_p51m_d5/tc_ulc_d5)(-1)+c0p51md5'c+dum1p51md5'c*dum_1999q4
+        +p51m_d5_cale
+    td_p51t_d1:
+      coeff_eq_dict:
+        ar2p51td1: 15
+        c0p51td1: 28
+        mu0p51td1: 67
+        mu1p51td1: 68
+        pib0p51td1: 84
+      coeff_name_list:
+      - ar2p51td1
+      - c0p51td1
+      - mu0p51td1
+      - mu1p51td1
+      - pib0p51td1
+      endo_eq_dict:
+        p51t_d1_cale: 13
+        td_p51t_d1: 91
+        td_pib1: 50
+      endo_name_list:
+      - p51t_d1_cale
+      - td_p51t_d1
+      - td_pib1
+      exo_eq_dict:
+        r10a: 68
+        td_p51t_d1: 91
+        td_p51t_d5: 92
+      exo_name_list:
+      - r10a
+      - td_p51t_d1
+      - td_p51t_d5
+      name_eq: td_p51t_d1
+      num_eq: 16
+      policy_eq_dict:
+        td_pib1: 13
+      policy_name_list:
+      - p51t_d1_cale
+      text_eq: del(log(td_p51t_d1)) = c0p51td1'c +ar2p51td1'c*del(log(td_p51t_d1(-2)))
+        +pib0p51td1'c*del(log(td_pib1)) +mu0p51td1'c*log((td_p51t_d1/td_pib1)(-1))
+        +mu1p51td1'c*(log((td_p51t_d5/td_pib5)(-1))+log(r10a/100+0.08-log(td_p51t_d5(-1)/td_p51t_d5(-4))))
+        +p51t_d1_cale
+    td_p51t_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p51t_d1: 91
+        td_p51t_d3: 47
+        td_p51t_d5: 92
+      endo_name_list:
+      - td_p51t_d1
+      - td_p51t_d3
+      - td_p51t_d5
+      exo_eq_dict:
+        td_p51t_d1: 91
+        td_p51t_d5: 92
+      exo_name_list:
+      - td_p51t_d1
+      - td_p51t_d5
+      name_eq: td_p51t_d3
+      num_eq: 18
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p51t_d3=td_p51t_d1*td_p51t_d5
+    td_p51t_d5:
+      coeff_eq_dict:
+        ar1p51td5: 9
+        c0p51td5: 29
+        cltp51td5: 59
+        p70p51td5: 77
+        ulc0p51td5: 91
+        ulc1p51td5: 98
+      coeff_name_list:
+      - ar1p51td5
+      - c0p51td5
+      - cltp51td5
+      - p70p51td5
+      - ulc0p51td5
+      - ulc1p51td5
+      endo_eq_dict:
+        p51t_d5_cale: 14
+        tc_ulc_d5: 30
+        td_p51t_d5: 92
+        td_p7_d5: 98
+      endo_name_list:
+      - p51t_d5_cale
+      - tc_ulc_d5
+      - td_p51t_d5
+      - td_p7_d5
+      exo_eq_dict:
+        td_p51m_d5: 90
+        td_p51t_d5: 92
+        td_p7_d5: 98
+      exo_name_list:
+      - td_p51m_d5
+      - td_p51t_d5
+      - td_p7_d5
+      name_eq: td_p51t_d5
+      num_eq: 17
+      policy_eq_dict:
+        td_p7_d5: 14
+      policy_name_list:
+      - p51t_d5_cale
+      text_eq: del(log(td_p51t_d5))=ar1p51td5'c*del(log(td_p51t_d5))(-1) +p70p51td5'c*del(log(td_p7_d5))
+        +ulc0p51td5'c*del(log(tc_ulc_d5))+ulc1p51td5'c*del(log(tc_ulc_d5))(-1) +cltp51td5'c*log((td_p51m_d5/tc_uc_d5)(-1))+c0p51td5'c
+        +p51t_d5_cale
+    td_p523_d1:
+      coeff_eq_dict:
+        ar1p523d1: 10
+        c0p523d1: 30
+        c1p523d1: 36
+        c2p523d1: 40
+        c3p523d1: 43
+      coeff_name_list:
+      - ar1p523d1
+      - c0p523d1
+      - c1p523d1
+      - c2p523d1
+      - c3p523d1
+      endo_eq_dict:
+        p523_d1_cale: 15
+        td_dint_dhs1: 37
+        td_p523_d1: 93
+      endo_name_list:
+      - p523_d1_cale
+      - td_dint_dhs1
+      - td_p523_d1
+      exo_eq_dict:
+        r3m: 69
+        td_p523_d1: 93
+      exo_name_list:
+      - r3m
+      - td_p523_d1
+      name_eq: td_p523_d1
+      num_eq: 28
+      policy_eq_dict:
+        td_p523_d1: 15
+      policy_name_list:
+      - p523_d1_cale
+      text_eq: td_p523_d1 = c0p523d1'c+ar1p523d1'c*td_p523_d1(-1) +c1p523d1'c*del(td_dint_dhs1)+c2p523d1'c*del(td_dint_dhs1(-1))
+        +c3p523d1'c*td_dint_dhs1(-1)*del(r3m(-1)-100*(td_pib5(-1)/td_pib5(-5)-1))
+        +p523_d1_cale
+    td_p523_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        p523_d3_cale: 16
+        td_p523_d1: 93
+        td_p523_d3: 94
+      endo_name_list:
+      - p523_d3_cale
+      - td_p523_d1
+      - td_p523_d3
+      exo_eq_dict:
+        td_p3g_d1: 83
+        td_p3m_d1: 85
+        td_p523_d1: 93
+        td_p523_d3: 94
+        td_p6_d1: 95
+      exo_name_list:
+      - td_p3g_d1
+      - td_p3m_d1
+      - td_p523_d1
+      - td_p523_d3
+      - td_p6_d1
+      name_eq: td_p523_d3
+      num_eq: 29
+      policy_eq_dict:
+        td_p523_d3: 16
+      policy_name_list:
+      - p523_d3_cale
+      text_eq: td_p523_d3=((td_p3m_d3+td_p51_d3+td_p3g_d3+td_p3a_d3+td_p6_d3)(-1)/(td_p3m_d1+td_p51_d1+td_p3g_d1+td_p3a_d1+td_p6_d1)(-1))*td_p523_d1+p523_d3_cale
+    td_p6_d1:
+      coeff_eq_dict:
+        c1p6d1: 37
+        c3p6d1: 44
+        clt0p6d1: 48
+        clt2p6d1: 52
+        mup6d1: 71
+      coeff_name_list:
+      - c1p6d1
+      - c3p6d1
+      - clt0p6d1
+      - clt2p6d1
+      - mup6d1
+      endo_eq_dict:
+        p6_d1_cale: 17
+        td_p6_d1: 95
+        td_p6_d5: 96
+      endo_name_list:
+      - p6_d1_cale
+      - td_p6_d1
+      - td_p6_d5
+      exo_eq_dict:
+        demmon: 57
+        inter: 64
+        petfx: 67
+        td_p6_d1: 95
+        td_p6_d5: 96
+      exo_name_list:
+      - demmon
+      - inter
+      - petfx
+      - td_p6_d1
+      - td_p6_d5
+      name_eq: td_p6_d1
+      num_eq: 24
+      policy_eq_dict:
+        td_p6_d5: 17
+      policy_name_list:
+      - p6_d1_cale
+      text_eq: del(log(td_p6_d1)) = c1p6d1'c*del(log(demmon))+(1-c1p6d1'c)*del(log(demmon)(-1))
+        +c3p6d1'c*(del(log(td_p6_d5/petfx))+del(log(td_p6_d5/petfx)(-1))) +mup6d1'c*log(td_p6_d1/demmon)(-1)-2*mup6d1'c*c3p6d1'c*log(td_p6_d5/petfx)(-1)+clt2p6d1'c*inter+clt0p6d1'c
+        +p6_d1_cale
+    td_p6_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p6_d1: 95
+        td_p6_d3: 48
+        td_p6_d5: 96
+      endo_name_list:
+      - td_p6_d1
+      - td_p6_d3
+      - td_p6_d5
+      exo_eq_dict:
+        td_p6_d1: 95
+        td_p6_d5: 96
+      exo_name_list:
+      - td_p6_d1
+      - td_p6_d5
+      name_eq: td_p6_d3
+      num_eq: 27
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p6_d3=td_p6_d1*td_p6_d5
+    td_p6_d5:
+      coeff_eq_dict:
+        ar2p6d5: 16
+        c0p6d5: 31
+        clt1p6d5: 50
+        dum1p6d5gd5: 66
+        petfx0p6d5: 82
+        petfx1p6d5: 83
+        ulc0p6d5: 92
+      coeff_name_list:
+      - ar2p6d5
+      - c0p6d5
+      - clt1p6d5
+      - dum1p6d5gd5
+      - petfx0p6d5
+      - petfx1p6d5
+      - ulc0p6d5
+      endo_eq_dict:
+        p6_d5_cale: 18
+        tc_ulc_d5: 30
+        td_p6_d5: 96
+      endo_name_list:
+      - p6_d5_cale
+      - tc_ulc_d5
+      - td_p6_d5
+      exo_eq_dict:
+        dum_1984q1: 61
+        petfx: 67
+        td_p6_d5: 96
+      exo_name_list:
+      - dum_1984q1
+      - petfx
+      - td_p6_d5
+      name_eq: td_p6_d5
+      num_eq: 25
+      policy_eq_dict:
+        td_p6_d5: 18
+      policy_name_list:
+      - p6_d5_cale
+      text_eq: del(log(td_p6_d5))=ar2p6d5'c*del(log(td_p6_d5))(-2) +petfx0p6d5'c*del(log(petfx))+petfx1p6d5'c*del(log(petfx))(-1)
+        +ulc0p6d5'c*del(log(tc_ulc_d5)) +clt1p6d5'c*(log(td_p6_d5/petfx)(-2)-0.3*log(tc_ulc_d5/petfx)(-2))+c0p6d5'c+dum1p6d5gd5'c*dum_1984q1
+        +p6_d5_cale
+    td_p7_d1:
+      coeff_eq_dict:
+        c1p7d1: 38
+        clt0p7d1: 49
+        clt2p7d1: 53
+        mup7d1: 72
+        p7d50p7d1: 79
+        ulc0p7d1: 93
+        ulc1p7d1: 99
+      coeff_name_list:
+      - c1p7d1
+      - clt0p7d1
+      - clt2p7d1
+      - mup7d1
+      - p7d50p7d1
+      - ulc0p7d1
+      - ulc1p7d1
+      endo_eq_dict:
+        p7_d1_cale: 19
+        tc_ulc_d5: 30
+        td_dint_d1: 36
+        td_p6_d1: 95
+        td_p7_d1: 97
+        td_p7_d5: 98
+      endo_name_list:
+      - p7_d1_cale
+      - tc_ulc_d5
+      - td_dint_d1
+      - td_p6_d1
+      - td_p7_d1
+      - td_p7_d5
+      exo_eq_dict:
+        inter: 64
+        td_p6_d1: 95
+        td_p7_d1: 97
+        td_p7_d5: 98
+      exo_name_list:
+      - inter
+      - td_p6_d1
+      - td_p7_d1
+      - td_p7_d5
+      name_eq: td_p7_d1
+      num_eq: 33
+      policy_eq_dict:
+        td_p7_d5: 19
+      policy_name_list:
+      - p7_d1_cale
+      text_eq: del(log(td_p7_d1)) = c1p7d1'c*del(log(td_dint_d1+td_p6_d1)) +ulc0p7d1'c*del(log(tc_ulc_d5))+ulc1p7d1'c*del(log(tc_ulc_d5)(-1))
+        +p7d50p7d1'c*del(log(td_p7_d5)) +mup7d1'c*(log((td_p7_d1/(td_dint_d1+td_p6_d1))(-1))+(ulc0p7d1'c+ulc1p7d1'c)*log((td_p7_d5/tc_ulc_d5)(-2)))+clt2p7d1'c*inter(-1)+clt0p7d1'c
+        +p7_d1_cale
+    td_p7_d3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p7_d1: 97
+        td_p7_d3: 49
+        td_p7_d5: 98
+      endo_name_list:
+      - td_p7_d1
+      - td_p7_d3
+      - td_p7_d5
+      exo_eq_dict:
+        td_p7_d1: 97
+        td_p7_d5: 98
+      exo_name_list:
+      - td_p7_d1
+      - td_p7_d5
+      name_eq: td_p7_d3
+      num_eq: 35
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_p7_d3=td_p7_d1*td_p7_d5
+    td_p7_d5:
+      coeff_eq_dict:
+        ar1p7d5: 11
+        c0p7d5: 32
+        clt1p7d5: 51
+        petfm0p7d5: 81
+      coeff_name_list:
+      - ar1p7d5
+      - c0p7d5
+      - clt1p7d5
+      - petfm0p7d5
+      endo_eq_dict:
+        p7_d5_cale: 20
+        td_p7_d5: 98
+      endo_name_list:
+      - p7_d5_cale
+      - td_p7_d5
+      exo_eq_dict:
+        petfm: 66
+        td_p7_d5: 98
+      exo_name_list:
+      - petfm
+      - td_p7_d5
+      name_eq: td_p7_d5
+      num_eq: 34
+      policy_eq_dict:
+        td_p7_d5: 20
+      policy_name_list:
+      - p7_d5_cale
+      text_eq: del(log(td_p7_d5))=ar1p7d5'c*del(log(td_p7_d5))(-1) +petfm0p7d5'c*del(log(petfm))+(1-ar1p7d5'c-petfm0p7d5'c)*del(log(petfm))(-1)
+        +clt1p7d5'c*log(td_p7_d5/petfm)(-2)+c0p7d5'c +p7_d5_cale
+    td_pib1:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p3a_d1: 38
+        td_p3m_d1: 85
+        td_p51_d1: 42
+        td_p523_d1: 93
+        td_p6_d1: 95
+        td_p7_d1: 97
+        td_pib1: 50
+      endo_name_list:
+      - td_p3a_d1
+      - td_p3m_d1
+      - td_p51_d1
+      - td_p523_d1
+      - td_p6_d1
+      - td_p7_d1
+      - td_pib1
+      exo_eq_dict:
+        td_p3g_d1: 83
+        td_p3m_d1: 85
+        td_p523_d1: 93
+        td_p6_d1: 95
+        td_p7_d1: 97
+      exo_name_list:
+      - td_p3g_d1
+      - td_p3m_d1
+      - td_p523_d1
+      - td_p6_d1
+      - td_p7_d1
+      name_eq: td_pib1
+      num_eq: 36
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_pib1=td_p3m_d1+td_p51_d1+td_p3g_d1+td_p3a_d1+td_p6_d1+td_p523_d1-td_p7_d1
+    td_pib3:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p3a_d3: 39
+        td_p3g_d3: 40
+        td_p3m_d3: 41
+        td_p51_d3: 43
+        td_p523_d3: 94
+        td_p6_d3: 48
+        td_p7_d3: 49
+        td_pib3: 51
+      endo_name_list:
+      - td_p3a_d3
+      - td_p3g_d3
+      - td_p3m_d3
+      - td_p51_d3
+      - td_p523_d3
+      - td_p6_d3
+      - td_p7_d3
+      - td_pib3
+      exo_eq_dict:
+        td_p523_d3: 94
+      exo_name_list:
+      - td_p523_d3
+      name_eq: td_pib3
+      num_eq: 37
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_pib3=td_p3m_d3+td_p51_d3+td_p3g_d3+td_p3a_d3+td_p6_d3+td_p523_d3-td_p7_d3
+    td_pib5:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_pib1: 50
+        td_pib3: 51
+        td_pib5: 52
+      endo_name_list:
+      - td_pib1
+      - td_pib3
+      - td_pib5
+      exo_eq_dict: {}
+      exo_name_list: []
+      name_eq: td_pib5
+      num_eq: 38
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_pib5=td_pib3/td_pib1
+    td_pint_d5:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        pint_d5_cale: 21
+        td_pint_d5: 99
+      endo_name_list:
+      - pint_d5_cale
+      - td_pint_d5
+      exo_eq_dict:
+        td_pint_d5: 99
+      exo_name_list:
+      - td_pint_d5
+      name_eq: td_pint_d5
+      num_eq: 30
+      policy_eq_dict:
+        td_pint_d5: 21
+      policy_name_list:
+      - pint_d5_cale
+      text_eq: del(log(td_pint_d5))=pint_d5_cale
+    td_ratio_p7:
+      coeff_eq_dict: {}
+      coeff_name_list: []
+      endo_eq_dict:
+        td_p3g_d3: 40
+        td_p51m_d3: 46
+        td_p7_d3: 49
+        td_pib3: 51
+        td_ratio_p7: 53
+      endo_name_list:
+      - td_p3g_d3
+      - td_p51m_d3
+      - td_p7_d3
+      - td_pib3
+      - td_ratio_p7
+      exo_eq_dict: {}
+      exo_name_list: []
+      name_eq: td_ratio_p7
+      num_eq: 3
+      policy_eq_dict: {}
+      policy_name_list: []
+      text_eq: td_ratio_p7=td_p7_d3/(td_p7_d3+td_pib3-td_p3g_d3-td_p51m_d3)

@@ -1,0 +1,246 @@
+usemod ;
+
+addsym 
+
+endogenous
+
+tc_d11_d3 tc_d1_d3 tc_ulc_d5 td_ratio_p7 tc_uc_d5 
+td_p3m_d1 td_p3m_d3 td_p3m_d5
+td_p3g_d3 td_p3g_d5
+td_p3a_d1 td_p3a_d3 td_p3a_d5
+td_p51m_d1 td_p51m_d3 td_p51m_d5
+td_p51t_d1 td_p51t_d3 td_p51t_d5
+td_p51g_d3 td_p51g_d5
+td_p51_d1 td_p51_d3 td_p51_d5
+compet td_p6_d1 td_p6_d3 td_p6_d5
+td_pint_d5 td_dint_dhs1 td_dint_d1 
+td_p7_d1 td_p7_d3 td_p7_d5
+td_p523_d1 td_p523_d3
+td_pib1 td_pib3 td_pib5
+tc_emps_d7 tc_d11_s14r3 tc_d11_d5 
+tc_emp_d1 tcho
+td_b2_s143 tc_d41_s14s3  
+tc_d4z_s14s3 tc_d5_s14e3 tc_d61s_s14e3 tc_d62_s14r3 
+tc_d7_s14s3 td_b6_s143a td_b6taxable_s14r3 td_b6_s143 
+,
+
+exogenous
+
+time trim1 trim2 trim3 trim4
+dum_1982q1 dum_1982q3 dum_1984q1 dum_1990q1 dum_1999q4 dum_1983q1
+ratio_d29_39 ratio_soc ratio_d11
+td_p51g_d1 td_p3g_d1 ct_tdp3ad3
+tuc 
+petfm petfx demmon inter
+ratio_part ratio_soc tc_empns_d1 tc_ls_d1 
+tc_d62_s14r1 pd7s14
+r3m r10a 
+b2_part ct_d61ss14
+,
+
+policy 
+
+p3m_d1_cale 
+p3m_d5_cale
+p3g_d5_cale
+p3a_d5_cale
+p51m_d1_cale
+p51m_d5_cale
+p51t_d1_cale
+p51t_d5_cale
+p51g_d5_cale
+d5_s143_cale
+pint_d5_cale
+p6_d1_cale
+p6_d5_cale
+p523_d1_cale
+p523_d3_cale
+p7_d1_cale
+p7_d5_cale
+emps_d7_cale
+d11_d5_cale
+d41_s14s3_cale
+d4z_s14s3_cale
+
+;
+
+addeq bottom,
+
+tc_d11_d3: tc_d11_d3=tc_d11_d5*tc_emps_d7 ,
+
+tc_d1_d3: tc_d1_d3=tc_d11_d3*(1+ratio_soc) ,
+
+tc_ulc_d5: tc_ulc_d5=tc_d1_d3*(1-ratio_d29_39)/td_pib1 ,
+
+td_ratio_p7: td_ratio_p7=td_p7_d3/(td_p7_d3+td_pib3-td_p3g_d3-td_p51m_d3) ,
+
+tc_uc_d5: tc_uc_d5=td_ratio_p7*td_p7_d5+(1-td_ratio_p7)*tc_ulc_d5/0.47 ,
+
+td_p3m_d1: del(log(td_p3m_d1)) = c1p3md1'c*del(log(td_b6_s143/td_p3m_d5))+c2p3md1'c*del(log(td_b6_s143(-1)/td_p3m_d5(-1)))
++c3p3md1'c*del(log(td_b6_s143(-2)/td_p3m_d5(-2)))
++c4p3md1'c*del(log(td_b6_s143(-3)/td_p3m_d5(-3)))
++c5p3md1'c*del(r3m(-2)-(td_p3m_d5(-2)/td_p3m_d5(-6)-1)*100)
++c6p3md1'c*del(tcho)
++mup3md1'c*log(td_p3m_d1(-1)/td_b6_s143*td_p3m_d5(-1))
++c0p3md1'c
++p3m_d1_cale ,
+
+td_p3m_d5: del(log(td_p3m_d5))=ar1p3md5'c*del(log(td_p3m_d5))(-1)+ar2p3md5'c*del(log(td_p3m_d5))(-2)
++p70p3md5'c*del(log(td_p7_d5))
++ulc0p3m5'c*del(log(tc_ulc_d5))+ulc1p3m5'c*del(log(tc_ulc_d5))(-1)
++cltp3md5'c*log(td_p3m_d5/tc_uc_d5)(-2)+c0p3md5'c+dum1p3dmd5'c*dum_1982q3
++p3m_d5_cale ,
+
+td_p3m_d3: td_p3m_d3=td_p3m_d1*td_p3m_d5,
+
+td_p3g_d5: del(log(td_p3g_d5))=ar1p3gd5'c*del(log(td_p3g_d5))(-1)+ar2p3gd5'c*del(log(td_p3g_d5))(-2)
++ulc0p3g5'c*del(log(tc_ulc_d5))+ulc1p3g5'c*del(log(tc_ulc_d5))(-1)
++cltp3gd5'c*log(td_p3g_d5/tc_ulc_d5)(-2)+c0p3gd5'c+dum1p3gd5'c*dum_1990q1
++p3g_d5_cale ,
+
+td_p3g_d3: td_p3g_d3=td_p3g_d1*td_p3g_d5,
+
+td_p3a_d5: del(log(td_p3a_d5))=ar1p3ad5'c*del(log(td_p3a_d5))(-1)+ar2p3ad5'c*del(log(td_p3a_d5))(-2)
++p70p3ad5'c*del(log(td_p7_d5))+p71p3ad5'c*del(log(td_p7_d5))(-1)
++ulc1p3a5'c*del(log(tc_ulc_d5))(-1)
++cltp3ad5'c*log(td_p3a_d5/tc_uc_d5)(-2)+c0p3ad5'c
++p3a_d5_cale ,
+
+td_p3a_d3: td_p3a_d3=ct_tdp3ad3*td_b6_s143 ,
+
+td_p3a_d1: td_p3a_d1=td_p3a_d3/td_p3a_d5 ,
+
+td_p51m_d1: del(log(td_p51m_d1)) = c0p51md1'c+ar1p51md1'c*del(log(td_p51m_d1(-1)))+c1p51md1'c*del(log(td_p51m_d5)(-1))
++mup51md1'c*(log(td_p51m_d1(-1))-log(td_b6_s143(-1)/td_p51m_d5(-1)*100))
++ctlp51md1'c*(r10a(-1)-(td_p51m_d5(-1)/td_p51m_d5(-5)-1)*100)
++p51m_d1_cale ,
+
+td_p51m_d5: del(log(td_p51m_d5))=
++ulc0p51m5'c*del(log(tc_ulc_d5))+ulc1p51m5'c*del(log(tc_ulc_d5))(-1)
++cltp51md5'c*log(td_p51m_d5/tc_ulc_d5)(-1)+c0p51md5'c+dum1p51md5'c*dum_1999q4
++p51m_d5_cale ,
+
+td_p51m_d3: td_p51m_d3=td_p51m_d1*td_p51m_d5,
+
+td_p51t_d1: del(log(td_p51t_d1)) = c0p51td1'c
++ar2p51td1'c*del(log(td_p51t_d1(-2)))
++pib0p51td1'c*del(log(td_pib1))
++mu0p51td1'c*log((td_p51t_d1/td_pib1)(-1))
++mu1p51td1'c*(log((td_p51t_d5/td_pib5)(-1))+log(r10a/100+0.08-log(td_p51t_d5(-1)/td_p51t_d5(-4))))
++p51t_d1_cale ,
+
+td_p51t_d5: del(log(td_p51t_d5))=ar1p51td5'c*del(log(td_p51t_d5))(-1)
++p70p51td5'c*del(log(td_p7_d5))
++ulc0p51td5'c*del(log(tc_ulc_d5))+ulc1p51td5'c*del(log(tc_ulc_d5))(-1)
++cltp51td5'c*log((td_p51m_d5/tc_uc_d5)(-1))+c0p51td5'c
++p51t_d5_cale ,
+
+td_p51t_d3: td_p51t_d3=td_p51t_d1*td_p51t_d5,
+
+td_p51g_d5: del(log(td_p51g_d5))=ar1p51gd5'c*del(log(td_p51g_d5))(-1)
++p70p51gd5'c*del(log(td_p7_d5))
++ulc0p51gg5'c*del(log(tc_ulc_d5))
++cltp51gd5'c*log(td_p51g_d5/tc_uc_d5)(-1)+c0p51gd5'c+dum1p51gd5'c*dum_1982q1
++p51g_d5_cale ,
+
+td_p51g_d3: td_p51g_d3=td_p51g_d1*td_p51g_d5,
+
+td_p51_d1: td_p51_d1=td_p51m_d1+td_p51t_d1+td_p51g_d1,
+
+td_p51_d3: td_p51_d3=td_p51m_d3+td_p51t_d3+td_p51g_d3,
+
+td_p51_d5: td_p51_d5=td_p51_d3/td_p51_d1,
+
+td_p6_d1: del(log(td_p6_d1)) = c1p6d1'c*del(log(demmon))+(1-c1p6d1'c)*del(log(demmon)(-1))
++c3p6d1'c*(del(log(td_p6_d5/petfx))+del(log(td_p6_d5/petfx)(-1)))
++mup6d1'c*log(td_p6_d1/demmon)(-1)-2*mup6d1'c*c3p6d1'c*log(td_p6_d5/petfx)(-1)+clt2p6d1'c*inter+clt0p6d1'c
++p6_d1_cale ,
+
+td_p6_d5: del(log(td_p6_d5))=ar2p6d5'c*del(log(td_p6_d5))(-2)
++petfx0p6d5'c*del(log(petfx))+petfx1p6d5'c*del(log(petfx))(-1)
++ulc0p6d5'c*del(log(tc_ulc_d5))
++clt1p6d5'c*(log(td_p6_d5/petfx)(-2)-0.3*log(tc_ulc_d5/petfx)(-2))+c0p6d5'c+dum1p6d5gd5'c*dum_1984q1
++p6_d5_cale,
+
+compet: compet = petfx/td_p6_d5 ,
+
+td_p6_d3: td_p6_d3=td_p6_d1*td_p6_d5,
+
+td_p523_d1: td_p523_d1 = c0p523d1'c+ar1p523d1'c*td_p523_d1(-1)
++c1p523d1'c*del(td_dint_dhs1)+c2p523d1'c*del(td_dint_dhs1(-1))
++c3p523d1'c*td_dint_dhs1(-1)*del(r3m(-1)-100*(td_pib5(-1)/td_pib5(-5)-1))
++p523_d1_cale
+ ,
+
+td_p523_d3: td_p523_d3=((td_p3m_d3+td_p51_d3+td_p3g_d3+td_p3a_d3+td_p6_d3)(-1)/(td_p3m_d1+td_p51_d1+td_p3g_d1+td_p3a_d1+td_p6_d1)(-1))*td_p523_d1+p523_d3_cale ,
+
+td_pint_d5: del(log(td_pint_d5))=pint_d5_cale ,
+
+td_dint_dhs1: td_dint_dhs1=td_p3m_d1+td_p51_d1+td_p3g_d1+td_p3a_d1+td_p6_d1 ,
+
+td_dint_d1: td_dint_d1=td_dint_dhs1+td_p523_d1 ,
+
+td_p7_d1: del(log(td_p7_d1)) = c1p7d1'c*del(log(td_dint_d1+td_p6_d1))
++ulc0p7d1'c*del(log(tc_ulc_d5))+ulc1p7d1'c*del(log(tc_ulc_d5)(-1))
++p7d50p7d1'c*del(log(td_p7_d5))
++mup7d1'c*(log((td_p7_d1/(td_dint_d1+td_p6_d1))(-1))+(ulc0p7d1'c+ulc1p7d1'c)*log((td_p7_d5/tc_ulc_d5)(-2)))+clt2p7d1'c*inter(-1)+clt0p7d1'c
++p7_d1_cale,
+
+td_p7_d5: del(log(td_p7_d5))=ar1p7d5'c*del(log(td_p7_d5))(-1)
++petfm0p7d5'c*del(log(petfm))+(1-ar1p7d5'c-petfm0p7d5'c)*del(log(petfm))(-1)
++clt1p7d5'c*log(td_p7_d5/petfm)(-2)+c0p7d5'c
++p7_d5_cale,
+
+td_p7_d3: td_p7_d3=td_p7_d1*td_p7_d5,
+
+td_pib1: td_pib1=td_p3m_d1+td_p51_d1+td_p3g_d1+td_p3a_d1+td_p6_d1+td_p523_d1-td_p7_d1,
+
+td_pib3: td_pib3=td_p3m_d3+td_p51_d3+td_p3g_d3+td_p3a_d3+td_p6_d3+td_p523_d3-td_p7_d3,
+
+td_pib5: td_pib5=td_pib3/td_pib1,
+
+tc_emps_d7: del(log(tc_emps_d7)) = c0empsd7'c+ar1empsd7'c*del(log(tc_emps_d7(-1)))+(1-ar1empsd7'c)*del(log(td_pib1))
++c1empsd7'c*(del(log(tc_d11_d5/td_pib5*100))+del(log(tc_d11_d5/td_pib5*100))(-1))
++emps_d7_cale ,
+
+tc_d11_d5: del(log(tc_d11_d5)) = c0d11d5'c
++ar1d11d5'c*del(log(tc_d11_d5(-1)))
++pc0d11d5'c*del(log(td_p3m_d5))
++dum1d11d5'c*(dum_1982q3-dum_1983q1)
++c3d11dim5'c*log(tcho)
++d11_d5_cale,
+
+tc_d11_s14r3: tc_d11_s14r3=tc_d11_d3*ratio_d11 ,
+
+tc_emp_d1: tc_emp_d1 = tc_emps_d7/(1-ratio_part)+tc_empns_d1 ,
+
+tcho: tcho = (tc_ls_d1-tc_emp_d1)/tc_ls_d1*100 ,
+
+td_b2_s143: td_b2_s143=b2_part*td_pib3 ,
+
+tc_d41_s14s3: tc_d41_s14s3/td_b6_s143(-1)=c0d14s14s3'c+ard41s14s3'c*tc_d41_s14s3(-1)/td_b6_s143(-2)+rl0d41s14s3'c*r10a+r3md41s14s3'c*(r3m-ard41s14s3'c*r3m(-1))
++d41_s14s3_cale ,
+
+tc_d4z_s14s3: del(tc_d4z_s14s3)=ar1d4zs143'c*del(tc_d4z_s14s3(-1))+ac1d4zs143'c*del(td_pib3)(-1)
++d4z_s14s3_cale ,
+
+td_b6_s143a: td_b6_s143a=trim1*(td_b6_s143(-1)+td_b6_s143(-2)+td_b6_s143(-3)+td_b6_s143(-4))
+           +trim2*(td_b6_s143(-2)+td_b6_s143(-3)+td_b6_s143(-4)+td_b6_s143(-4))
+           +trim3*(td_b6_s143(-3)+td_b6_s143(-4)+td_b6_s143(-4)+td_b6_s143(-5))
+           +trim4*(td_b6_s143(-4)+td_b6_s143(-4)+td_b6_s143(-5)+td_b6_s143(-6)) ,
+
+td_b6taxable_s14r3: td_b6taxable_s14r3=td_b2_s143+tc_d11_s14r3+tc_d41_s14s3+tc_d4z_s14s3-tc_d61s_s14e3+tc_d62_s14r3+tc_d7_s14s3 ,
+
+tc_d5_s14e3: del(log(tc_d5_s14e3))=p1d5s14'c*1.9*del(log(td_b6_s143a))+(1-p1d5s14'c)*del(log(td_b6taxable_s14r3))+d5_s143_cale ,
+
+tc_d61s_s14e3: tc_d61s_s14e3=ct_d61ss14*tc_d11_s14r3 ,
+
+tc_d62_s14r3: tc_d62_s14r3 = 0.25*(td_p3m_d5(-1)+td_p3m_d5(-2)+td_p3m_d5(-3)+td_p3m_d5(-4))*tc_d62_s14r1 ,
+
+tc_d7_s14s3: tc_d7_s14s3 = pd7s14*td_pib3 ,
+
+td_b6_s143: td_b6_s143 = td_b6taxable_s14r3-tc_d5_s14e3 
+
+;
+
+filemod colibri ;
